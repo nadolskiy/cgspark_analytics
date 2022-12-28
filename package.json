@@ -1,0 +1,27 @@
+{
+  "name": "cgspark_analytics",
+  "version": "1.0.0",
+  "description": "CGSpark Analytics",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "dev" : "nodemon server/app.js"
+  },
+  "keywords": [
+    "cgspark",
+    "nadolskiy",
+    "analytics",
+    "screen"
+  ],
+  "author": "Sergey Nadolskiy",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
